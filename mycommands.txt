@@ -1,9 +1,14 @@
+git config --list
+git config --global user.name "set loginname"
+git config --global user.email "set email Address"
+
+git generate public/private ssh in local machine and add to profile to enable seamless authentication while checkin the changes
+
 git log
 git status
 git add file
 git commit -m "commit message"
 git show commit
-git branch
 
 
 git commit -m "first commit"
