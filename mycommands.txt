@@ -3,6 +3,7 @@ git status
 git add file
 git commit -m "commit message"
 git show commit
+git branch
 
 
 git commit -m "first commit"
