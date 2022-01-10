@@ -1,9 +1,16 @@
+Seting up the local environment
+===============================
 git config --list
 git config --global user.name "set loginname"
 git config --global user.email "set email Address"
 
+
+for Seamless Authentication
+===========================
 git generate public/private ssh in local machine and add to profile to enable seamless authentication while checkin the changes
 
+Local Branch , Tracking , Staging , Committing & Viewing
+git branch
 git log
 git status
 git add file
@@ -11,7 +18,9 @@ git commit -m "commit message"
 git show commit
 
 
-git commit -m "first commit"
+Pushing the changes to Server first time after with Remote URL
+=============================================================
 git branch -M main
 git remote add origin https://github.com/egotistic-coder/mygitsam.git
 git push -u origin main
+
