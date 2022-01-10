@@ -1,0 +1,11 @@
+git log
+git status
+git add file
+git commit -m "commit message"
+git show commit
+
+
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/egotistic-coder/mygitsam.git
+git push -u origin main
