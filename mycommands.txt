@@ -24,3 +24,12 @@ git branch -M main
 git remote add origin https://github.com/egotistic-coder/mygitsam.git
 git push -u origin main
 
+
+
+To view the changes 
+===================
+git log --graph
+
+git log --graph --oneline --all
+
+git log --graph --pretty=oneline --abbrev-commit
